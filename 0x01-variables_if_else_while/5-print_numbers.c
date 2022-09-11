@@ -14,10 +14,10 @@
 
 int main(void)
 {
-	int mimi;
+	int j;
 
-	for (mimi = 0; mimi < 10; mimi++)
-	putchar(mimi);
+	for (j = 0; j < 10; j++)
+	putchar(j);
 	printf("\n");
 	return (0);
 }
