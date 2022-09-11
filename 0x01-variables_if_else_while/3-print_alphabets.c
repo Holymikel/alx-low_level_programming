@@ -19,6 +19,7 @@ int main(void)
 	for (mimi = 'a'; mimi <= 'z'; mimi++)
 	putchar(mimi);
 	for (mimi = 'A'; mimi <= 'Z'; mimi++)
+	putchar(mimi);
 	printf("\n");
 	return (0);
 }
