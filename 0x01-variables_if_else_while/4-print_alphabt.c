@@ -14,12 +14,15 @@
 
 int main(void)
 {
-	char mimi;
+	char mimi, e, q;
 
+	e = 'e';
+	q = 'q';
 	for (mimi = 'a'; mimi <= 'z'; mimi++)
-	putchar(mimi);
-	for (mimi = 'A'; mimi <= 'Z'; mimi++)
-	putchar(mimi);
+	{
+		if (low != e && low != q)
+			putchar(mimi);
+	}
 	printf("\n");
 	return (0);
 }
