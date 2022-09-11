@@ -21,7 +21,7 @@ int main(void)
 	{
 		putchar(a);
 	}
-	for (mimi = 'a'; mimi <= 'f'; mimi++)
+	for (mimi = 'a' ; mimi <= 'f' ; mimi++)
 	{
 		putchar(mimi);
 	}
