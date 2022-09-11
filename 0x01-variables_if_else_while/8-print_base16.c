@@ -18,13 +18,9 @@ int main(void)
 	char mimi;
 
 	for (a = 0 ; a < 10; a++)
-	{
-		putchar(a)
-	}
+		putchar(a);
 	for (mimi = 'a'; mimi <= 'f'; mimi++)
-	{
 		putchar(mimi);
-	}
 	putchar('\n');
 	return (0);
 }
