@@ -20,7 +20,7 @@ int main(void)
 	q = 'q';
 	for (mimi = 'a'; mimi <= 'z'; mimi++)
 	{
-		if (low != e && low != q)
+		if (mimi != e && mimi != q)
 			putchar(mimi);
 	}
 	printf("\n");
