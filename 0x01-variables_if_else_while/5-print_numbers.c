@@ -16,7 +16,7 @@ int main(void)
 {
 	int mimi;
 
-	for (mimi = '0'; mimi < '10'; mimi++)
+	for (mimi = 0; mimi < 10; mimi++)
 	putchar(mimi);
 	printf("\n");
 	return (0);
