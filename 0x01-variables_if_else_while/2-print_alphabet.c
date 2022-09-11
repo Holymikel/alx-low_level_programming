@@ -14,9 +14,10 @@
 
 int main(void)
 {
-	char alpha;
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);
-		printf("\n");
-			return (0);
+	char mimi;
+
+	for (mimi = 'a'; mimi <= 'z'; mimi++)
+	putchar(mimi);
+	printf("\n");
+	return (0);
 }
