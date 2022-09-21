@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include <string.h>
 #include <main.h>
 /**
- * main - a function that copies a string
+ *_strncpy - copies string from source to destination
+ *@dest: destination string
+ *@src: source string to be copied
  *
- * Return: 0 success
+ *Return: destination string concatenated
  */
-int main(void)
-{
-	char Src[15] = "alx_africa";
-	char Dest[15] = "";
 
-	printf("Before copying\n");
-	printf("Source string: %s \n", Src);
-	printf("Destination string: %s \n\n", Dest);
-	strcpy(Dest, Src);
-	printf("After copying\n");
-	printf("Source string: %s \n", Src);
-	printf("Destination string: %s \n", Dest);
-	return (0);
+char *strncpy(char *dest, const char *src, size_t n)
+{
+	size_t i;
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < n; i++)
+		dest[i] = '\0';
+
+	return (dest);
 }
