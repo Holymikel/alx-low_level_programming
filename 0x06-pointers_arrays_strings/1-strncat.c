@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 /**
  * _strcat- concatenates string with n bytes from another string
