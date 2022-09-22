@@ -4,9 +4,9 @@
  *main - a function that reverses the content of an array of integers
  *
  *
- *return: reversed content of an array
+ *return: void
  */
-int main(void)
+int main()
 {
 	int arr[n] = {9, 8, 7, 2, 4, 3};
 	int temp;
